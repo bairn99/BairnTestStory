@@ -35,7 +35,7 @@
 //    });
     
     
-    NSLog(@"eeee");
+    NSLog(@"eeee0000");
     
     dispatch_queue_t t = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0);
     dispatch_apply(6, t, ^(size_t index) {
